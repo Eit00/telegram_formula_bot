@@ -1,3 +1,44 @@
-.env
+# ---- Python ----
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# ---- Venv ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- Databases ----
+*.sqlite3
+*.db
+*.sqlite
+
+# ---- Environment ----
+.env
+.env.*
+
+# ---- Static build ----
+staticfiles/
+media/
+
+# ---- Cache ----
+.cache/
+.mypy_cache/
+pytest_cache/
